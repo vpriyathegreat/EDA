@@ -15,3 +15,4 @@ csv_url = "https://drive.google.com/file/d/1N_zdNog3SUy1JKTvO1RybBbSrTyuFttj/vie
 
 # Read the CSV file from the URL
 ds = pd.read_csv(csv_url, quoting=3, on_bad_lines='skip')
+st.write(ds.info())
