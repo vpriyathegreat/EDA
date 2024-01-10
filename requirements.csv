@@ -1,0 +1,14 @@
+numpy 
+pandas 
+nltk==3.8.1
+matplotlib
+
+streamlit
+
+stopwords
+PorterStemmer
+
+
+scikit-learn
+
+confusion_matrix
